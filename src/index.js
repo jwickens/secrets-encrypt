@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const logger = console;
 
-const ROOT = path.join(__dirname, '../');
+const ROOT = path.join(__dirname, '../../');
 const SECRET_FILE = 'environments/parts/secrets.js';
 const SECRET_ENC_FILE = 'environments/parts/secrets.enc.js';
 const KEY_FILE = 'configkey.js';

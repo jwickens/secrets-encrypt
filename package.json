@@ -1,9 +1,9 @@
 {
   "name": "secrets-encrypt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "util for encrypting application secrets before storing in repository",
   "bin": {
-      "secrets-encrypt": ".index.js"
+    "secrets-encrypt": ".index.js"
   },
   "main": "index.js",
   "scripts": {

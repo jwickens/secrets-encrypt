@@ -15,7 +15,7 @@ We assume that you have the following setup
     │   │   │   ├── secrets.enc.js
     │   │   │   ├── common.js
 
-The start script `start.js` using a a build variable say `BUILd` should be set to `appA` or `appB` which are then loaded from the `environments/appA.js` or `environments/appB.js` using `require`. These files themselves should depend on common config in for example `parts/common.js` and in particular, in the case of credentials should load them from `secrets.js`.
+The start script `start.js` using a a build variable say `BUILD` should be set to `appA` or `appB` which are then loaded from the `environments/appA.js` or `environments/appB.js` using `require`. These files themselves should depend on common config in for example `parts/common.js` and in particular, in the case of credentials should load them from `secrets.js`.
 
 During encryption/decryption a key is used which can be defined through either a file or another environmental variable.
 

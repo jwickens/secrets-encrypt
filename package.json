@@ -2,6 +2,9 @@
   "name": "secrets-encrypt",
   "version": "0.0.1",
   "description": "util for encrypting application secrets before storing in repository",
+  "bin": {
+      "secrets-encrypt": ".index.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

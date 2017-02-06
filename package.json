@@ -1,6 +1,6 @@
 {
   "name": "secrets-encrypt",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "util for encrypting application secrets before storing in repository",
   "bin": "./bin/index.js",
   "main": "bin/index.js",
@@ -29,5 +29,5 @@
   "devDependencies": {
     "documentation-readme": "^2.1.1",
     "eslint": "^3.15.0"
-}
+  }
 }

@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 
 const cryptoJson = require('crypto-json');
 const fs = require('fs');

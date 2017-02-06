@@ -1,6 +1,6 @@
 {
   "name": "secrets-encrypt",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "util for encrypting application secrets before storing in repository",
   "bin": "./dist/index.js",
   "main": "dist/index.js",

@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir -p dist && babel --presets es2015 src --out-file dist/index.js",
+    "build": "mkdir -p dist && babel --presets es2015,babili src --out-file dist/index.js",
     "docs": "documentation-readme -s \"Usage\"",
     "prepublish": "npm run build"
   },
@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "babel-cli": "^6.22.2",
+    "babel-preset-babili": "0.0.10",
     "babel-preset-es2015": "^6.22.0",
     "documentation-readme": "^2.1.1",
     "eslint": "^3.15.0"
